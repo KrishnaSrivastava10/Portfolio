@@ -27,7 +27,7 @@ export const ContactSection = () => {
 				<div className="flex flex-col sm:flex-row justify-center gap-4 mb-8">
 					<a
 						href="#"
-						onClick={(e) => { e.preventDefault(); window.open('mailto:abhinavxdayal@gmail.com', '_blank'); }}
+						onClick={(e) => { e.preventDefault(); window.open('mailto:krishna.techspace@gmail.com', '_blank'); }}
 						className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg font-medium hover:opacity-90 transition-opacity"
 					>
 						<svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
@@ -37,7 +37,7 @@ export const ContactSection = () => {
 						Get in Touch
 					</a>
 					<a
-						href="/Abhinav Dayal Resume.pdf"
+						href="/Krishna_Srivastava_Resume.pdf"
 						target="_blank"
 						className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg font-medium hover:opacity-90 transition-opacity"
 					>
@@ -56,7 +56,7 @@ export const ContactSection = () => {
 				{/* Social Links */}
 				<div className="flex justify-center gap-6">
 					<a
-						href="https://www.linkedin.com/in/abhinavxdayal"
+						href="https://www.linkedin.com/in/krishna-srivastava-596b6b252/"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="text-gray-400 hover:text-white transition-colors p-2 hover:bg-gray-800 rounded-lg"

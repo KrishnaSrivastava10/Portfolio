@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-	title: 'Abhinav Dayal Portfolio',
+	title: 'Krishna Srivastava Portfolio',
 	description:
 		'Welcome to my portfolio! I am a passionate web developer creating modern, responsive, and user-friendly websites. Specializing in frontend technologies and interactive user interfaces, I build engaging web experiences that make an impact.',
 	keywords: [
@@ -30,22 +30,21 @@ export const metadata: Metadata = {
 		'Web Accessibility',
 		'Performance Optimization',
 		'Modern Web Development',
-		'Progressive Web Apps',
-		'Abhinav Dayal',
+		'Progressive WeKrishna Srivastava',
 	],
-	authors: [{ name: 'Abhinav Dayal' }],
-	creator: 'Abhinav Dayal',
+	authors: [{ name: 'Krishna Srivastava' }],
+	creator: 'Krishna Srivastava',
 	openGraph: {
-		title: 'Abhinav Dayal Portfolio',
+		title: 'Krishna Srivastava Portfolio',
 		description: 'Passionate web developer crafting modern and engaging digital experiences. Explore my projects and web development expertise.',
 		url: 'https://your-domain.com',
-		siteName: 'Abhinav Dayal Portfolio',
+		siteName: 'Krishna Srivastava Portfolio',
 		images: [
 			{
 				url: '/og-image.jpg',
 				width: 1200,
 				height: 630,
-				alt: 'Abhinav Dayal Portfolio',
+				alt: 'Krishna Srivastava Portfolio',
 			},
 		],
 		locale: 'en_US',
@@ -53,7 +52,7 @@ export const metadata: Metadata = {
 	},
 	twitter: {
 		card: 'summary_large_image',
-		title: 'Abhinav Dayal Portfolio',
+		title: 'Krishna Srivastava Portfolio',
 		description: 'Passionate web developer crafting modern and engaging digital experiences. Explore my projects and web development expertise.',
 		creator: '@yourusername',
 		images: ['/og-image.jpg'],

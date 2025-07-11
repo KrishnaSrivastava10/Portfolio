@@ -5,7 +5,7 @@ import gsap from 'gsap';
 import * as THREE from 'three';
 
 export const HeroSection = () => {
-	const fullName = "Abhinav Dayal";
+	const fullName = "Krishna Srivastava";
 	const [animatedName, setAnimatedName] = useState("");
 	const contentRef = useRef<HTMLDivElement>(null);
 	const techRef = useRef<HTMLDivElement>(null);
@@ -161,7 +161,7 @@ export const HeroSection = () => {
 						<div className="flex flex-col items-center gap-4">
 							<div className="flex items-center gap-3">
 								<span className="h-[1px] w-8 sm:w-12 bg-blue-500"></span>
-								<h2 className="text-xl sm:text-2xl font-light tracking-wide text-blue-400">Software Developer</h2>
+								<h2 className="text-xl sm:text-2xl font-light tracking-wide text-blue-400">Full-Stack Web Developer</h2>
 								<span className="h-[1px] w-8 sm:w-12 bg-blue-500"></span>
 							</div>
 							<p className="text-base sm:text-lg text-gray-400 max-w-2xl px-4 sm:px-0">
@@ -171,7 +171,7 @@ export const HeroSection = () => {
 
 						{/* Tech Stack Pills */}
 						<div ref={techRef} className="flex flex-wrap justify-center gap-2 sm:gap-3 mt-6 sm:mt-8 px-4 sm:px-0 opacity-0">
-							{['React', 'TypeScript', 'Node.js', 'Three.js', 'GSAP'].map((tech) => (
+							{['React.js', 'Node.js', 'Express.js', 'MongoDB', 'JavaScript (ES6+)'].map((tech) => (
 								<span
 									key={tech}
 									className="px-3 sm:px-4 py-1 sm:py-1.5 bg-[#1A1F2B] rounded-full text-sm font-medium text-gray-300 border border-[#2D333B] hover:border-blue-500/50 transition-colors"
@@ -206,7 +206,7 @@ export const HeroSection = () => {
 						{[
 							{ name: 'GitHub', icon: '🐙', href: '#' },
 							{ name: 'LinkedIn', icon: '💼', href: '#' },
-							{ name: 'Twitter', icon: '🐦', href: '#' },
+							{ name: 'Email', icon: '🐦', href: '#' },
 							{ name: 'Blog', icon: '✍️', href: '#' },
 						].map((social) => (
 							<a key={social.name} href={social.href} className="group relative p-2 sm:p-3 hover:text-blue-400 transition-colors" aria-label={social.name}>
